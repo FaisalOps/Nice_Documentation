@@ -13,7 +13,7 @@ Some `code`
 Codeblock:
 
 ``` 
-print('Hello Baku')
+print('Hello Baku from Nuneaton')
 
 ```
 
@@ -47,7 +47,7 @@ def bubble_sort(items):
 
 ### Highlight Code Block
 
-``` py hl_lines="3 4"
+```  py hl_lines="3 4"
 """ Bubble Sort """
 def bubble_sort(items):
     for i in range(len(items)):
