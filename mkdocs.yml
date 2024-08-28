@@ -1,0 +1,43 @@
+site_name: Easier MkDocs Documentation
+theme:
+  name: readthedocs
+plugins:
+  - search
+
+##extra_css:
+  ##- css/custom.css  # If you have any custom CSS
+
+##extra_javascript:
+  ##- js/custom.js  # If you have any custom JavaScript
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums_style: pymdownx-inline
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/FaisalOps
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/faisalops
+    - icon: fontawesome/brands/linkedin
+      link: https://uk.linkedin.com/in/faisal-j-ahmad-6262a846
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/faisal" target="_blank" rel="noopener">Faisal</a>
